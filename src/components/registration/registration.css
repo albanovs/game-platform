@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+}
+.sign-up {
+    color: white;
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 6px 24px;
+    border-radius: 3px;
+    border: 1px solid #0761DC;
+    background: #0761DC;
+}
+.sign-up:hover,.sign-in:hover{
+    opacity: 0.8;
+}
+.sign-in {
+    width: 123px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 6px 24px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
