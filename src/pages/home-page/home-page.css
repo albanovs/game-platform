@@ -1,0 +1,14 @@
+.slider {
+    width: 100%;
+    height: 394px;
+    background-image: url(../../covers/home-pageCovers/background1.png);
+    background-size: cover;
+}
+
+.section{
+    width: 100%;
+    height: 2825px;
+    background-image: url(../../covers/home-pageCovers/BG\ \(1\).png);
+    background-size: cover;
+    opacity: 0.6;
+}
