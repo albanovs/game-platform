@@ -8,6 +8,7 @@ import c5 from '../../covers/game-covers/5.jpg'
 import c6 from '../../covers/game-covers/6.jpg'
 import c7 from '../../covers/game-covers/7.jpg'
 import c8 from '../../covers/game-covers/8.jpg'
+import Footer from '../../components/footer/footer'
 
 
 
@@ -57,12 +58,14 @@ const ITEMS = [
 
 export default function HomePage() {
   return (
-    <div className='globalPage.'>
+    <div className='globalPage'>
       <div className="slider">
 
       </div>
       <div className="section">
-        
+        <div className='home-footer'>
+        <Footer/>
+        </div>
       </div>
     </div>
   )
