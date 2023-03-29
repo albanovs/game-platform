@@ -1,0 +1,46 @@
+.game_item {
+    width: 370px;
+    height: 293px;
+    border-radius: 9px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.details {
+    background-color: #121B24;
+    width: 370px;
+    height: 117px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 6px;
+}
+
+.details h1 {
+    margin-left: 13.53px;
+    margin-bottom: 6px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 189.3%;
+    margin-top: 26px;
+}
+
+.game_details {
+    margin-left: 13.53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game_genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97px;
+    height: 24px;
+    background: #0761DC;
+    border-radius: 7px;
+}
